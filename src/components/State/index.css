@@ -1,0 +1,145 @@
+.state-bg-container {
+  background: #161625;
+}
+.state-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 20px;
+  align-items: center;
+}
+.state-name-container {
+  background: #0284c729;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.state-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.state-name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0ea5e9;
+}
+.updated-date {
+  font-size: 12px;
+  line-height: 16px;
+  color: #cbd5e1;
+}
+.tests-heading {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #94a3b8;
+}
+.tests-count {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+@media (min-width: 992px) {
+  .state-info {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .state-name-container {
+    border-radius: 32px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .state-name {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .updated-date {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .tests-heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .tests-count {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+.total-districts-container {
+  padding: 20px;
+}
+.districts-heading {
+  font-size: 24px;
+  line-height: 32px;
+  color: #ff073a;
+  font-weight: 500;
+}
+
+.districts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.districts-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 150px;
+  justify-content: space-between;
+}
+.district-values {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #94a3b8;
+  order: -1;
+}
+.district-name {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #94a3b8;
+  width: 50px;
+}
+@media (min-width: 992px) {
+  .district-values {
+    order: 1;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .district-name {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .total-districts-container {
+    padding: 50px;
+  }
+  .districts-container {
+    min-width: 240px;
+  }
+  .districts-heading {
+    color: #ff073a;
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.Confirmed-dist-color {
+  color: #ff073a;
+}
+.Active-dist-color {
+  color: #007bff;
+}
+.Recovered-dist-color {
+  color: #28a745;
+}
+.Deceased-dist-color {
+  color: #6c757d;
+}

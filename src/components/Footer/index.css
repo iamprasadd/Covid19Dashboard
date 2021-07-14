@@ -1,0 +1,29 @@
+.logo {
+  font-family: Bree Serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+}
+.logo-span {
+  color: #00ced1;
+}
+.caption {
+  color: white;
+  text-align: center;
+}
+.insta-logo {
+  color: white;
+}
+.icons-container {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+}
+.footer-section {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

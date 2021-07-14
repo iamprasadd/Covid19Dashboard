@@ -1,0 +1,36 @@
+.states-container {
+  color: white;
+  display: flex;
+  background-color: #1e1e30;
+  padding: 10px;
+  border-radius: 12px;
+}
+.width {
+  width: 300px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.confirmed {
+  color: #ff073a;
+}
+.conformed:focus {
+  background: #331427;
+}
+.active {
+  color: #007bff;
+}
+.active:focus {
+  background: #132240;
+}
+.recovered {
+  color: #28a745;
+}
+.recovered:focus {
+  background: #182829;
+}
+.deceased {
+  color: #6c757d;
+}
+.deceased:focus {
+  background: #212230;
+}

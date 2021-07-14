@@ -1,0 +1,69 @@
+.total-category-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (min-width: 948px) {
+  .total-category-container {
+    width: 970px;
+    align-items: center;
+  }
+  .cat {
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+  }
+}
+.category-item {
+  width: 153px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category-name {
+  font-size: 16px;
+  line-height: 24px;
+}
+.category-value {
+  font-size: 16px;
+  line-height: 24px;
+}
+.Confirmed {
+  color: #ff073a;
+}
+.Confirmed:focus {
+  background: #331427;
+}
+.Confirmed:hover {
+  background: #331427;
+}
+.Active {
+  color: #007bff;
+}
+.Active:focus {
+  background: #132240;
+}
+.Active:hover {
+  background: #132240;
+}
+.Recovered {
+  color: #28a745;
+}
+.Recovered:focus {
+  background: #182829;
+}
+.Recovered:hover {
+  background: #182829;
+}
+.Deceased {
+  color: #6c757d;
+}
+.Deceased:focus {
+  background: #212230;
+}
+.Deceased:hover {
+  background: #212230;
+}
